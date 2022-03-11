@@ -185,3 +185,5 @@ Structure.java     자바 소스코드의 구조
 3/11
 생성자
 Cst.java 참조
+인터페이스
+Inter.java 참조
