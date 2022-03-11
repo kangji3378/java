@@ -1,5 +1,5 @@
 //예시용이므로 클래스 무시
-class Animal{
+class Animals{
     String name;//클래스에 선언된 변수=> 객체변수   객체.객체변수 로 접근 가능 (ex>cat.name)
     
     public void setName(String name/*매개변수*/){
@@ -8,12 +8,12 @@ class Animal{
 }
 public class ObjectSample {
     public static void main(String[] args){
-        Animal cat = new Animal();/*Animal클래스의 인스턴스 cat, 즉 Animal의 객체 생성
+        Animals cat = new Animals();/*Animal클래스의 인스턴스 cat, 즉 Animal의 객체 생성
         객체와 인스턴스의 차이 
             ex> cat은 객체, cat은 Animal의 인스턴스
         클래스=> 객체를 만드는 기능
         */
-        Animal dog = new Animal();
+        Animals dog = new Animals();
         cat.setName("boby");//메서드 호출
         dog.setName("happy");
         System.out.println(cat.name);
