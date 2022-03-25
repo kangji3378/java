@@ -83,7 +83,8 @@ JPA란 무엇인가
 
 	2. ORM 기술이다.
 		Object Relational Mapping
-			원래 데이터 테이블을 만들고 이를 Input(DML: delete,update,insert),Output 하기 위해 DB상의 데이터를 자바로 모델링
+			Table이 만들어지고 이를 Input(DML: delete,update,insert),Output(select) 하기 위해,
+			원래는 class를 통해서 데이터 테이블, 즉 DB상의 데이터를 자바로 모델링해야 함
 			but TRM(Table)이 아니라 ORM이므로 자바 class를 먼저 만들고 이를 통해서 DB에 테이블이 자동생성되도록 만드는 것이 가능하다. 
 			이때 필요한게 JPA에 있는 인터페이스
 
